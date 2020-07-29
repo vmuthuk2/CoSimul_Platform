@@ -231,7 +231,7 @@ private:
   uint32_t linkCount;                    ///< Network link count
   vector<NetDeviceContainer> p2pDevices; ///< Vector with all link devices
   vector<NetDeviceContainer> lrWpanDevices; ///< Vector with all lrwpan devices
-  vector<NetDeviceContainer> sixlowpanDevices; ///< Vector with all sixlowpan devices
+  vector<NetDeviceContainer> sixlowpanDevices; ///< Vector with all sixlowpan devices 
 
   Ptr<ListPositionAllocator> nodePositionAlloc; ///< Pointer to node position allocation
 
